@@ -143,7 +143,7 @@ p.card-text{
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 #crd:hover{
-    background-color: #06f12d;
+    background-color: #2af589;
     transform: scale(1.07);
 }
 #animeAccordion{
@@ -195,7 +195,7 @@ p.card-text{
     overflow: hidden;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: transfors 0.3s;
+    transition:transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 .gallery:hover{
     transform: scale(1.05);

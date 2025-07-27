@@ -1,23 +1,31 @@
 .nav-item{
-    padding: 0 16px;
+    padding: 0 15px;
     font-size: 20px;
 }
 .navbar-brand{
-    font-size: 30px;
+    font-size: 32px;
     font-weight: bold;
-    color:rgb(8, 129, 90);
-}
-.nav-link{
-    color:rgb(27, 43, 166);
+    color:rgb(153, 39, 19);
+    transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
     border: none;
     border-radius: 10px;
-    padding: 8px 15px;
+}
+.navbar-brand:hover{
+    color: rgb(42, 48, 157);
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.nav-link{
+    color:rgb(20, 39, 185);
+    border: none;
+    border-radius: 10px;
+    padding: 8px 10px;
     transition:transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
     
 }
 .nav-link:hover{
-    background-color: rgb(220, 251, 220);
-    color: rgb(4, 154, 49);
+    background-color: rgb(65, 244, 65);
+    color: rgb(3, 111, 35);
     transform: scale(1.15);
     font-weight: bold;
     
@@ -26,7 +34,7 @@
     color:rgb(4, 154, 49);
     border:none;
     border-radius: 10px;
-    padding: 8px 15px;
+    padding: 8px 10px;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 .dropdown-item:hover{
@@ -47,9 +55,10 @@ body{
     background:url(img/yourname.jpg) no-repeat center center fixed;
     background-size: cover;
     backdrop-filter: blur(3px);
+    font-family: arial;
 }
 .navbar{
-    background: linear-gradient(to right, #91fba6, #e6f896);
+    background: linear-gradient(to right, #45df64, #e6f896);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(253, 123, 249, 0.3);
 }
@@ -73,7 +82,7 @@ body{
     height:500px;
     object-fit: cover;
     border-radius: 13px;
-    border-color: #03d940;
+    border-color: #caf1fa;
     border-width: 5px;
     border-style: solid;
     opacity: 0.95;;
@@ -85,22 +94,31 @@ body{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 h1{
-    color:rgb(25, 144, 23);
-    background: linear-gradient(to right, #f697e3, #8a8aff);
+    background: linear-gradient(to right, #00166f, #77b6f5);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    text-align: center;
     font-size: 3em;
-    box-shadow: 2px 4px 10px rgba(92, 250, 44, 0.3);
+    box-shadow: 2px 4px 17px rgba(85, 232, 62, 0.3);
     padding:8px;
     border-radius: 10px;
 }
+.heading1{
+    background: linear-gradient(to right, #fbf1f9, #fa46d9);
+    border-radius: 8px;
+}
 h2{
-    color:rgb(78, 85, 226);
+    color:rgb(50, 58, 209);
+    font-weight: bold;
     font-size: 2.5em;
     box-shadow: 2px 4px 10px rgba(31, 231, 161, 0.3);
     padding:8px
 }
 .heading2{
-    background: linear-gradient(to right, #f3c19e, #fc8be0); 
-    border-radius: 5px;
+    background: linear-gradient(to right, #f69652, #fecbf1); 
+    border-radius: 8px;
 }
 .card{
     border: 3px solid rgb(119, 213, 244);
